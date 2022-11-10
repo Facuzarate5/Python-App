@@ -1,0 +1,50 @@
+body{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.lista-integrantes{
+    font-size: 1.5em;
+}
+
+.h1-integrantes{
+    font-size: 3.3em;
+}
+
+.introData {
+    font-size: 2em;
+}
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+ }
+
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+ }
+
+ circle {
+    fill: #25d366;
+ }
+ path {
+    fill: #fff;
+ }
+
+ circle:hover{
+    fill: green;
+ }
+ 
+ @media (min-widht: 780px){
+body {
+    background: rgba(28, 28, 211, 0.644);
+
+}
+    
+
+ }
